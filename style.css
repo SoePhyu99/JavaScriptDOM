@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+/* JavaScript Quote */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(images/img5.jpeg) no-repeat center/ cover;
+}
+
+.container {
+    width: 30rem;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.header {
+    margin: 2rem 0;
+}
+
+.text-area {
+    font-size: 1.2rem;
+    color: #000000a4;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.person {
+    font-size: 1.1rem;
+    color: brown;
+}
+
+.button-area {
+    margin: 1rem 0;
+}
+
+.button-area button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+} */
+
+/* Model Styling */
+/* body {
+    background: url(images/img2.jpeg) no-repeat center/ cover;
+    position: relative;
+    height: 100vh;
+}
+
+#open-btn {
+    padding: 1rem 4rem;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 1.5rem;
+    background: transparent;
+    border: solid #fff 2px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#open-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+#model {
+    width: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    animation-name: animateModel;
+    animation-duration: 1s;
+}
+
+#close-btn {
+    font-size: 1.8rem;
+    color: brown;
+    cursor: pointer;
+}
+
+#model-container {
+    position: fixed;
+    background-color: #00000072;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 1;
+}
+
+@keyframes animateModel {
+    from {
+        top: -10rem;
+        opacity: 0;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+} */
+
+/* FAQ */
+/* body {
+    background: url(images/img3.jpeg) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordin {
+    width: 60%;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.accordin .accordin-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.accordin .content-container .question {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    border-bottom: solid black 1px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.accordin .content-container .question::after {
+    content: '+';
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0;
+}
+
+.accordin .content-container .answer {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.accordin .content-container.active .answer {
+    height: 12rem;
+}
+
+.accordin .content-container.active .question {
+    font-size: 1rem;
+}
+
+.accordin .content-container.active .question::after {
+    content: '-';
+    font-size: 2rem;
+} */
+
+/* Stop Watch */
+/* body {
+    background: url(images/img4.jpeg) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.container #timer {
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container .buttons button {
+    border: none;
+    background-color: white;
+    margin: 0 1rem;
+}
+
+.container .buttons button i {
+    color: #fff;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.3rem;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: blue;
+}
+
+#reset {
+    background-color: red;
+} */
+
+/* to do list */
+body {
+    background: url(images/img1.jpg) fixed no-repeat center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    margin: 3rem 0;
+}
+
+.container input {
+    background-color: #fff;
+    border: solid 2px wheat;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    outline: none;
+    width: 90%;
+}
+
+.container button {
+    font-size: 1.5rem;
+    width: 9%;
+    padding: 1rem;
+    border: solid wheat 1px;
+    background-color: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list-container {
+    width: 60%;
+}
+
+.list-container .list {
+    font-size: 1.2rem;
+    background-color: wheat;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.list-container .list button {
+    position: absolute;
+    z-index: 1;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list-container .list button i {
+    padding: 10px;
+    color: wheat;
+}
+
+#check {
+    right: 3rem;
+    bottom: 0.6rem;
+    background-color: green;
+}
+
+#trash {
+    right: 0.5rem;
+    bottom: 0.65rem;
+    background-color: red;
+}
